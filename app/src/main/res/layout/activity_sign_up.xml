@@ -56,22 +56,10 @@ android:background="#FFFFFF"
             android:inputType="textEmailAddress"
             android:paddingHorizontal="24dp" />
 
-        <EditText
-            android:id="@+id/PhoneNumber"
-            android:layout_width="350dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="#FFFFFF"
-            android:drawableLeft="@drawable/baseline_phone_24"
-            android:drawablePadding="20dp"
-            android:ems="10"
-            android:hint="Mobile Number"
-            android:inputType="numberDecimal"
-            android:paddingHorizontal="24dp" />
+
 
         <EditText
-            android:id="@+id/Password"
+            android:id="@+id/Password1"
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
@@ -86,7 +74,7 @@ android:background="#FFFFFF"
             android:paddingHorizontal="24dp" />
 
         <EditText
-            android:id="@+id/Password"
+            android:id="@+id/Password2"
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
