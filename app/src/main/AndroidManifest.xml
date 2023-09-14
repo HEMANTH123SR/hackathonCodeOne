@@ -15,7 +15,16 @@
         android:theme="@style/Theme.HackTestAppOne"
         tools:targetApi="31">
         <activity
-            android:name=".Home"
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".GeoLocation"
+            android:exported="false" />
+        <activity
+            android:name=".Feed"
+            android:exported="false" />
+        <activity
+            android:name=".Handler"
             android:exported="false" />
         <activity
             android:name=".SignUp"

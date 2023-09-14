@@ -16,7 +16,7 @@ class SignIn : AppCompatActivity() {
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
         if (currentUser != null) {
-            val intent = Intent(this,Home::class.java);
+            val intent = Intent(this,Handler::class.java);
             startActivity(intent);
             finish()
         }
@@ -63,7 +63,7 @@ navigateToSignUp.setOnClickListener {
                     // Sign in success, update UI with the signed-in user's information
 
                     val user = auth.currentUser
-val intent = Intent(this,Home::class.java);
+val intent = Intent(this,Handler::class.java);
                     startActivity(intent)
                     finish()
                 } else {
